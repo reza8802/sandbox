@@ -1,4 +1,4 @@
-name: G-Play dl
+name: GooglePlay dl
 
 on:
   workflow_dispatch:
@@ -7,6 +7,14 @@ on:
         description: 'Package name OR Google Play URL'
         required: true
         type: string
+      architecture:
+        description: 'Target Architecture'
+        required: true
+        type: choice
+        default: 'arm64'
+        options:
+          - 'arm64'
+          - 'armv7'
 
 jobs:
   download-apk:
@@ -25,7 +33,7 @@ jobs:
             !/dl/
             !/apks/
 
-      - name: Parse Input (Get Package Name)
+      - name: Parse Input
         id: parse
         run: |
           RAW_INPUT="${{ github.event.inputs.app_input }}"
@@ -34,65 +42,48 @@ jobs:
           else
             PKG="$RAW_INPUT"
           fi
+          PKG=$(echo "$PKG" | tr -d '[:space:]')
           echo "pkg=$PKG" >> $GITHUB_ENV
-          echo "📥 Target Package: $PKG"
+          echo "arch=${{ github.event.inputs.architecture }}" >> $GITHUB_ENV
 
-      - name: Download apkeep (Google Play Fetcher Engine)
+      - name: Install System Dependencies
         run: |
-          wget -q https://github.com/EFForg/apkeep/releases/latest/download/apkeep-x86_64-unknown-linux-gnu -O apkeep
-          chmod +x apkeep
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq openjdk-17-jre-headless apksigner python3 python3-venv python3-pip curl git zip p7zip-full
 
-      - name: Fetch APK
+      - name: Setup Google Play Downloader
         run: |
-          mkdir -p temp_dl
-          ./apkeep -a ${{ env.pkg }} -d apk-pure temp_dl/
+          git clone https://github.com/alltechdev/gplay-apk-downloader.git
+          cd gplay-apk-downloader
+          ./setup.sh
 
-      - name: Smart Repackager (Python)
-        # This script transforms annoying .xapk files into clean, standard .apk or .apks formats!
+      - name: Fetch Token
         run: |
-          cat << 'EOF' > repackager.py
-          import os, sys, zipfile, shutil
-          
-          pkg = sys.argv[1]
-          work_dir = "temp_dl"
-          out_dir = "processed_dl"
-          os.makedirs(out_dir, exist_ok=True)
-          
-          files = os.listdir(work_dir)
-          if not files:
-              print("[-] Error: No files were downloaded!")
-              sys.exit(1)
-              
-          dl_file = os.path.join(work_dir, files[0])
-          
-          if dl_file.endswith(".apk"):
-              print("[+] Standard APK detected. Renaming...")
-              final_path = os.path.join(out_dir, f"{pkg}.apk")
-              shutil.move(dl_file, final_path)
-              print(f"✅ Saved as {final_path}")
-              
-          elif dl_file.endswith(".xapk") or dl_file.endswith(".apkm"):
-              print("[+] Bundled file (.xapk/.apkm) detected. Converting to standard .apks...")
-              final_path = os.path.join(out_dir, f"{pkg}.apks")
-              
-              with zipfile.ZipFile(dl_file, 'r') as z_in:
-                  with zipfile.ZipFile(final_path, 'w', zipfile.ZIP_DEFLATED) as z_out:
-                      for item in z_in.namelist():
-                          # We only want the actual .apk files, ignoring manifests and icons
-                          if item.endswith(".apk"):
-                              file_name = item.split('/')[-1]
-                              z_out.writestr(file_name, z_in.read(item))
-                              print(f"  -> Extracted: {file_name}")
-                              
-              print(f"✅ Successfully repacked into standard format: {final_path}")
-          else:
-              print(f"[-] Unknown file format: {dl_file}")
-              sys.exit(1)
-          EOF
-          
-          python3 repackager.py "${{ env.pkg }}"
+          cd gplay-apk-downloader
+          echo "y" | ./gplay auth
 
-      - name: Zip & Split (Bypass 100MB GitHub Limit)
+      - name: Download APK from Google Play
+        run: |
+          mkdir -p temp_dl/${{ env.pkg }}
+          cd gplay-apk-downloader
+          ./gplay download ${{ env.pkg }} -a ${{ env.arch }} -o ../temp_dl/${{ env.pkg }}
+
+      - name: Repackager
+        run: |
+          mkdir -p processed_dl
+          cd temp_dl/${{ env.pkg }}
+          
+          APK_COUNT=$(ls -1 *.apk 2>/dev/null | wc -l)
+          
+          if [ "$APK_COUNT" -eq 0 ]; then
+            exit 1
+          elif [ "$APK_COUNT" -eq 1 ]; then
+            mv *.apk "../../processed_dl/${{ env.pkg }}_${{ env.arch }}.apk"
+          else
+            zip -0 -q "../../processed_dl/${{ env.pkg }}_${{ env.arch }}.apks" *.apk
+          fi
+
+      - name: Zip & Split
         shell: bash
         run: |
           mkdir -p apks
@@ -105,27 +96,22 @@ jobs:
             rm -f "apks/${BASENAME}.zip"*
             
             if [ "$SIZE" -gt "$LIMIT" ]; then
-              echo "📦 File exceeds 95MB. Splitting: $BASENAME"
-              if ! command -v 7z &> /dev/null; then
-                sudo apt-get update -qq && sudo apt-get install -y p7zip-full > /dev/null
-              fi
               7z a -tzip -v95m "apks/${BASENAME}.zip" "$FILE"
               for ZPART in "apks/${BASENAME}".zip.00*; do
                 [ -f "$ZPART" ] && basename "$ZPART" >> new_files.txt
               done
             else
-              echo "📄 File is under 95MB. Copying..."
               cp -f "$FILE" "apks/$BASENAME"
               echo "$BASENAME" >> new_files.txt
             fi
           done
-          rm -rf temp_dl processed_dl apkeep repackager.py
+          rm -rf temp_dl processed_dl gplay-apk-downloader
 
       - name: Update Links.md
         shell: bash
         run: |
           [ ! -f new_files.txt ] && exit 0
-        
+          
           REPO="${{ github.repository }}"
           BRANCH="${GITHUB_REF_NAME}"
           HEADER="## 🔗 Direct Download Links\n> Click on any link below to start downloading directly.<br><br/>\n\n"
@@ -164,10 +150,11 @@ jobs:
           fi
           rm -f new_files.txt current_run.md
 
+
       - name: Push to Repository
         run: |
           git config user.name "NET-Sentinel Bot"
           git config user.email "224584266+NetSentinel-Bot@users.noreply.github.com"
           git add --sparse apks/ Links.md
-          git -c committer.name="Diana-Cl" -c committer.email="135276904+Diana-Cl@users.noreply.github.com" commit -m "Add ${{ env.pkg }} at: $(TZ='Asia/Tehran' date '+%H:%M:%S') [skip ci]" || echo "No changes to commit"
+          git -c committer.name="Diana-Cl" -c committer.email="135276904+Diana-Cl@users.noreply.github.com" commit -m "Added ${{ env.pkg }} (${{ env.arch }}) at: $(TZ='Asia/Tehran' date '+%H:%M:%S') [skip ci]" || echo "No changes to commit"
           git push origin HEAD:${GITHUB_REF_NAME}
