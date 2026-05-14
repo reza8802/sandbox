@@ -2,6 +2,12 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-14 17:54 IR
+- 🗜️ [🎓_آموزش_فاندامنتال_به_زبان_ساده_–_قسمت_۱۷.7z](https://github.com/reza8802/sandbox/raw/main/dl/%F0%9F%8E%93_%D8%A2%D9%85%D9%88%D8%B2%D8%B4_%D9%81%D8%A7%D9%86%D8%AF%D8%A7%D9%85%D9%86%D8%AA%D8%A7%D9%84_%D8%A8%D9%87_%D8%B2%D8%A8%D8%A7%D9%86_%D8%B3%D8%A7%D8%AF%D9%87_%E2%80%93_%D9%82%D8%B3%D9%85%D8%AA_%DB%B1%DB%B7.7z) `89.7MB`
+
+---
+
+
 ### 📅 2026-05-14 17:52 IR
 - 🗜️ [آموزش_فاندامنتال_به_زبان_ساده_قسمت_۱۵__تأثیر_داده_خرده‌فروشی_و_سفارشات_کالاهای_بادوام_در_فاز_انبساطی.7z](https://github.com/reza8802/sandbox/raw/main/dl/%D8%A2%D9%85%D9%88%D8%B2%D8%B4_%D9%81%D8%A7%D9%86%D8%AF%D8%A7%D9%85%D9%86%D8%AA%D8%A7%D9%84_%D8%A8%D9%87_%D8%B2%D8%A8%D8%A7%D9%86_%D8%B3%D8%A7%D8%AF%D9%87_%D9%82%D8%B3%D9%85%D8%AA_%DB%B1%DB%B5__%D8%AA%D8%A3%D8%AB%DB%8C%D8%B1_%D8%AF%D8%A7%D8%AF%D9%87_%D8%AE%D8%B1%D8%AF%D9%87%E2%80%8C%D9%81%D8%B1%D9%88%D8%B4%DB%8C_%D9%88_%D8%B3%D9%81%D8%A7%D8%B1%D8%B4%D8%A7%D8%AA_%DA%A9%D8%A7%D9%84%D8%A7%D9%87%D8%A7%DB%8C_%D8%A8%D8%A7%D8%AF%D9%88%D8%A7%D9%85_%D8%AF%D8%B1_%D9%81%D8%A7%D8%B2_%D8%A7%D9%86%D8%A8%D8%B3%D8%A7%D8%B7%DB%8C.7z) `38.7MB`
 
