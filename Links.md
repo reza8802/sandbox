@@ -2,6 +2,12 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-14 15:46 IR
+- 🗜️ [آموزش_فاندامنتال_به_زبان_ساده_–_جلسه_هفتم___داده_GDP_چیست_و_چرا_اهمیت_دارد؟.7z](https://github.com/reza8802/sandbox/raw/main/dl/%D8%A2%D9%85%D9%88%D8%B2%D8%B4_%D9%81%D8%A7%D9%86%D8%AF%D8%A7%D9%85%D9%86%D8%AA%D8%A7%D9%84_%D8%A8%D9%87_%D8%B2%D8%A8%D8%A7%D9%86_%D8%B3%D8%A7%D8%AF%D9%87_%E2%80%93_%D8%AC%D9%84%D8%B3%D9%87_%D9%87%D9%81%D8%AA%D9%85___%D8%AF%D8%A7%D8%AF%D9%87_GDP_%DA%86%DB%8C%D8%B3%D8%AA_%D9%88_%DA%86%D8%B1%D8%A7_%D8%A7%D9%87%D9%85%DB%8C%D8%AA_%D8%AF%D8%A7%D8%B1%D8%AF%D8%9F.7z) `41.6MB`
+
+---
+
+
 ### 📅 2026-05-14 15:43 IR
 - 🗜️ [آموزش_صفر_تا_صد_فاندامنتال_به_زبان_ساده_(قسمت_ششم)___داده‌های_NFP_و_نرخ_بیکاری_رو_کامل_یاد_بگیر!.7z](https://github.com/reza8802/sandbox/raw/main/dl/%D8%A2%D9%85%D9%88%D8%B2%D8%B4_%D8%B5%D9%81%D8%B1_%D8%AA%D8%A7_%D8%B5%D8%AF_%D9%81%D8%A7%D9%86%D8%AF%D8%A7%D9%85%D9%86%D8%AA%D8%A7%D9%84_%D8%A8%D9%87_%D8%B2%D8%A8%D8%A7%D9%86_%D8%B3%D8%A7%D8%AF%D9%87_%28%D9%82%D8%B3%D9%85%D8%AA_%D8%B4%D8%B4%D9%85%29___%D8%AF%D8%A7%D8%AF%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C_NFP_%D9%88_%D9%86%D8%B1%D8%AE_%D8%A8%DB%8C%DA%A9%D8%A7%D8%B1%DB%8C_%D8%B1%D9%88_%DA%A9%D8%A7%D9%85%D9%84_%DB%8C%D8%A7%D8%AF_%D8%A8%DA%AF%DB%8C%D8%B1%21.7z) `24.2MB`
 
