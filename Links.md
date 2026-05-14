@@ -2,6 +2,12 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-14 15:32 IR
+- 🗜️ [آموزش_فاندامنتال_از_صفر___قسمت_دوم___هدف_دوگانه_بانک_مرکزی_و_میز_اقتصادی.7z](https://github.com/reza8802/sandbox/raw/main/dl/%D8%A2%D9%85%D9%88%D8%B2%D8%B4_%D9%81%D8%A7%D9%86%D8%AF%D8%A7%D9%85%D9%86%D8%AA%D8%A7%D9%84_%D8%A7%D8%B2_%D8%B5%D9%81%D8%B1___%D9%82%D8%B3%D9%85%D8%AA_%D8%AF%D9%88%D9%85___%D9%87%D8%AF%D9%81_%D8%AF%D9%88%DA%AF%D8%A7%D9%86%D9%87_%D8%A8%D8%A7%D9%86%DA%A9_%D9%85%D8%B1%DA%A9%D8%B2%DB%8C_%D9%88_%D9%85%DB%8C%D8%B2_%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%DB%8C.7z) `26.7MB`
+
+---
+
+
 ### 📅 2026-05-14 15:30 IR
 - 🗜️ [آموزش_صفر_تا_صد_فاندامنتال___قسمت_اول.7z](https://github.com/reza8802/sandbox/raw/main/dl/%D8%A2%D9%85%D9%88%D8%B2%D8%B4_%D8%B5%D9%81%D8%B1_%D8%AA%D8%A7_%D8%B5%D8%AF_%D9%81%D8%A7%D9%86%D8%AF%D8%A7%D9%85%D9%86%D8%AA%D8%A7%D9%84___%D9%82%D8%B3%D9%85%D8%AA_%D8%A7%D9%88%D9%84.7z) `69.7MB`
 
