@@ -2,6 +2,12 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-14 17:50 IR
+- 🗜️ [آموزش_فاندامنتال___تأثیر_PMI_و_GDP_در_شرایط_انبساطی_بانک_مرکزی___قسمت_۱۴.7z](https://github.com/reza8802/sandbox/raw/main/dl/%D8%A2%D9%85%D9%88%D8%B2%D8%B4_%D9%81%D8%A7%D9%86%D8%AF%D8%A7%D9%85%D9%86%D8%AA%D8%A7%D9%84___%D8%AA%D8%A3%D8%AB%DB%8C%D8%B1_PMI_%D9%88_GDP_%D8%AF%D8%B1_%D8%B4%D8%B1%D8%A7%DB%8C%D8%B7_%D8%A7%D9%86%D8%A8%D8%B3%D8%A7%D8%B7%DB%8C_%D8%A8%D8%A7%D9%86%DA%A9_%D9%85%D8%B1%DA%A9%D8%B2%DB%8C___%D9%82%D8%B3%D9%85%D8%AA_%DB%B1%DB%B4.7z) `34.7MB`
+
+---
+
+
 ### 📅 2026-05-14 17:49 IR
 - 🗜️ [آموزش_صفر_تا_صد_فاندامنتال_به_زبان_ساده__قسمت_۱۳___تأثیر_داده‌های_مشاغل_در_شرایط_انبساطی_بانک_مرکزی.7z](https://github.com/reza8802/sandbox/raw/main/dl/%D8%A2%D9%85%D9%88%D8%B2%D8%B4_%D8%B5%D9%81%D8%B1_%D8%AA%D8%A7_%D8%B5%D8%AF_%D9%81%D8%A7%D9%86%D8%AF%D8%A7%D9%85%D9%86%D8%AA%D8%A7%D9%84_%D8%A8%D9%87_%D8%B2%D8%A8%D8%A7%D9%86_%D8%B3%D8%A7%D8%AF%D9%87__%D9%82%D8%B3%D9%85%D8%AA_%DB%B1%DB%B3___%D8%AA%D8%A3%D8%AB%DB%8C%D8%B1_%D8%AF%D8%A7%D8%AF%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C_%D9%85%D8%B4%D8%A7%D8%BA%D9%84_%D8%AF%D8%B1_%D8%B4%D8%B1%D8%A7%DB%8C%D8%B7_%D8%A7%D9%86%D8%A8%D8%B3%D8%A7%D8%B7%DB%8C_%D8%A8%D8%A7%D9%86%DA%A9_%D9%85%D8%B1%DA%A9%D8%B2%DB%8C.7z) `24.6MB`
 
