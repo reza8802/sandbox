@@ -2,6 +2,12 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-14 16:30 IR
+- 🗜️ [آموزش_صفر_تا_صد_فاندامنتال__به_زبان_ساده_قسمت_دهم__انتظارات_تورمی_و_اثر_مارپیچ_دستمزد-قیمت_در_اقتصاد.7z](https://github.com/reza8802/sandbox/raw/main/dl/%D8%A2%D9%85%D9%88%D8%B2%D8%B4_%D8%B5%D9%81%D8%B1_%D8%AA%D8%A7_%D8%B5%D8%AF_%D9%81%D8%A7%D9%86%D8%AF%D8%A7%D9%85%D9%86%D8%AA%D8%A7%D9%84__%D8%A8%D9%87_%D8%B2%D8%A8%D8%A7%D9%86_%D8%B3%D8%A7%D8%AF%D9%87_%D9%82%D8%B3%D9%85%D8%AA_%D8%AF%D9%87%D9%85__%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D8%B1%D8%A7%D8%AA_%D8%AA%D9%88%D8%B1%D9%85%DB%8C_%D9%88_%D8%A7%D8%AB%D8%B1_%D9%85%D8%A7%D8%B1%D9%BE%DB%8C%DA%86_%D8%AF%D8%B3%D8%AA%D9%85%D8%B2%D8%AF-%D9%82%DB%8C%D9%85%D8%AA_%D8%AF%D8%B1_%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF.7z) `26.3MB`
+
+---
+
+
 ### 📅 2026-05-14 16:12 IR
 - 🗜️ [آموزش_صفر_تا_صد_فاندامنتال___بررسی_داده_سفارشات_کالاهای_بادوام_و_خرده‌فروشی_(Retail_Sales).7z](https://github.com/reza8802/sandbox/raw/main/dl/%D8%A2%D9%85%D9%88%D8%B2%D8%B4_%D8%B5%D9%81%D8%B1_%D8%AA%D8%A7_%D8%B5%D8%AF_%D9%81%D8%A7%D9%86%D8%AF%D8%A7%D9%85%D9%86%D8%AA%D8%A7%D9%84___%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C_%D8%AF%D8%A7%D8%AF%D9%87_%D8%B3%D9%81%D8%A7%D8%B1%D8%B4%D8%A7%D8%AA_%DA%A9%D8%A7%D9%84%D8%A7%D9%87%D8%A7%DB%8C_%D8%A8%D8%A7%D8%AF%D9%88%D8%A7%D9%85_%D9%88_%D8%AE%D8%B1%D8%AF%D9%87%E2%80%8C%D9%81%D8%B1%D9%88%D8%B4%DB%8C_%28Retail_Sales%29.7z) `22.2MB`
 
