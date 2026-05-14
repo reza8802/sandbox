@@ -2,6 +2,12 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-14 15:41 IR
+- 🗜️ [آموزش_صفر_تا_صد_فاندامنتال_به_زبان_ساده_(قسمت_پنجم)___داده_تورمی_PCE_آمریکا.7z](https://github.com/reza8802/sandbox/raw/main/dl/%D8%A2%D9%85%D9%88%D8%B2%D8%B4_%D8%B5%D9%81%D8%B1_%D8%AA%D8%A7_%D8%B5%D8%AF_%D9%81%D8%A7%D9%86%D8%AF%D8%A7%D9%85%D9%86%D8%AA%D8%A7%D9%84_%D8%A8%D9%87_%D8%B2%D8%A8%D8%A7%D9%86_%D8%B3%D8%A7%D8%AF%D9%87_%28%D9%82%D8%B3%D9%85%D8%AA_%D9%BE%D9%86%D8%AC%D9%85%29___%D8%AF%D8%A7%D8%AF%D9%87_%D8%AA%D9%88%D8%B1%D9%85%DB%8C_PCE_%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7.7z) `19.5MB`
+
+---
+
+
 ### 📅 2026-05-14 15:35 IR
 - 🗜️ [آموزش_فاندامنتال_به_زبان_ساده___قسمت_چهارم__آموزش_کامل_داده_PPI_و_تاثیرش_روی_بازارها.7z](https://github.com/reza8802/sandbox/raw/main/dl/%D8%A2%D9%85%D9%88%D8%B2%D8%B4_%D9%81%D8%A7%D9%86%D8%AF%D8%A7%D9%85%D9%86%D8%AA%D8%A7%D9%84_%D8%A8%D9%87_%D8%B2%D8%A8%D8%A7%D9%86_%D8%B3%D8%A7%D8%AF%D9%87___%D9%82%D8%B3%D9%85%D8%AA_%DA%86%D9%87%D8%A7%D8%B1%D9%85__%D8%A2%D9%85%D9%88%D8%B2%D8%B4_%DA%A9%D8%A7%D9%85%D9%84_%D8%AF%D8%A7%D8%AF%D9%87_PPI_%D9%88_%D8%AA%D8%A7%D8%AB%DB%8C%D8%B1%D8%B4_%D8%B1%D9%88%DB%8C_%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1%D9%87%D8%A7.7z) `34.3MB`
 
